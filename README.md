@@ -18,7 +18,7 @@ This monorepo contains the logic for multiple financial tools. Each primary tool
 
 ```
 financial-tools/
-├── notebooks/   # Jypter notebooks to quickly run the logic
+├── notebooks/   # Jupyter notebooks to quickly run the logic
 ├── retirement_simulator/   # Monte Carlo simulator for traditional retirement
 ├── shared_logic/           # Common functions (e.g., inflation) used by multiple tools
 └── ... (more tools coming soon)
