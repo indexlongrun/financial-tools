@@ -1,15 +1,15 @@
 
 # IndexLongRun Financial Tools
 
-Welcome to IndexLongRun's suite of open-source financial calculators and simulation engines for long-term planning. This repository provides the core mathematical logic behind the tools available at [indexlongrun.com](https://www.indexlongrun.com).
+A suite of open-source financial calculators and simulation engines designed for long-term planning. This project provides the core mathematical logic for the web tools available at [indexlongrun.com](https://www.indexlongrun.com).
 
 ## Philosophy
 
-We are committed to three core principles:
+Our philosophy is built on three core principles:
 
-1. **Transparency:** All calculations, assumptions, and methodologies are open for inspection, critique, and verification.
-2. **Privacy-First:** Your financial data remains yours. Our engines perform calculations without requiring personal data, and our web tools never store your information without explicit consent.
-3. **Evidence-Based:** Our models are grounded in established financial theories and emphasize a long-term, passive investing approach.
+1. **Transparency:** Financial planning shouldn't be a black box. All our calculations, assumptions, and methodologies are open for you to inspect, critique, and verify.
+2. **Privacy-First:** We believe your financial data is yours alone. Our engines are designed to perform calculations without requiring personal data, and our web tools will never store your information without your explicit consent.
+3. **Evidence-Based:** Our models are grounded in established financial theories and a long-term, passive investing approach.
 
 
 ## Repository Structure
@@ -18,6 +18,7 @@ This monorepo contains the logic for multiple financial tools. Each primary tool
 
 ```
 financial-tools/
+├── notebooks/   # Jypter notebooks to quickly run the logic
 ├── retirement_simulator/   # Monte Carlo simulator for traditional retirement
 ├── shared_logic/           # Common functions (e.g., inflation) used by multiple tools
 └── ... (more tools coming soon)
