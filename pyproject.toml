@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "financial-tools"
+version = "0.1.0"
+description = "IndexLongRun financial calculators and simulators"
+authors = [{name = "IndexLongRun"}]
+readme = "README.md"
+dependencies = ["numpy>=1.25,<2.0", "pandas>=2.2"]

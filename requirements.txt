@@ -1,0 +1,6 @@
+numpy>=1.25,<2.0
+pandas>=2.2
+pytest>=7.0
+jupyterlab>=4.0
+matplotlib>=3.6
+scipy>=1.10
