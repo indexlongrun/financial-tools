@@ -3,3 +3,7 @@ __pycache__/
 .env
 .venv
 .ipynb_checkpoints/
+
+# Ignore Python packaging metadata and generated artifacts
+*.egg-info/
+tmp_plot.png
